@@ -1,0 +1,120 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+   background: #282828;
+   min-height: 180px;
+}
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.header-block {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px 0;
+}
+.header-block__logo {
+   margin-top: 16px;
+}
+.header-block__info-top ul{
+   display: flex;
+   list-style: none;
+}
+
+.header-block__info-top ul li {
+   margin-right: 50px;
+}
+.header-block__info-top ul li a {
+   text-decoration: none;
+   color: #fff;
+}
+
+.active i {
+   color: #ffd200;
+
+}
+.header-block__info-top ul li a i {
+   margin-right: 8px;
+   font-size: 15px;
+}
+
+.header-block__info-top ul li a:hover {
+   color: #ffd200;
+}
+.header-block__search-phone {
+   margin: 20px;
+}
+.header-block__search-phone a {
+   color: #fff;
+   font-size: 26px;
+   font-weight: 600;
+   margin-top: 40px;
+   text-decoration: none;
+}
+.header-block__search-phone span {
+   display: block;
+   font-size: 13px;
+   color: #b8b8b8;
+   margin: 8px 0 0 55px;
+}
+.header-block__search-phone i {
+   padding-right: 10px;
+}
+.header-block__search {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.search-input {
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+   width: 400px;
+}
+.header-block__search-input input {
+   padding: 0 30px 0 15px;
+   border-radius: 3px;
+   border: none;
+   width: 380px;
+   height: 34px;
+}
+.btn {
+   width: 34px;
+   height: 34px;
+   border: none;
+   border-radius: 3px;
+}
+.header-block__clients-ul {
+   display: flex;
+   margin-left: 60px;
+}
+.header-block__clients-ul li {
+   list-style: none;
+   padding: 10px 15px 0;
+}
+.header-block__clients-ul li a {
+   display: block;
+   padding: 14px 20px ;
+   border-radius: 5px 5px 0 0;
+   font-size: 19px;
+}
+.header-block__clients-ul li.active a {
+   background-color: #ffd200;
+   display: block;
+   text-align: center;
+   padding: 14px 20px ;
+   border-radius: 5px 5px 0 0;
+   color: #000;
+   font-size: 19px;
+}
+.header-block__clients-ul li a{
+   color: #fff;
+   text-decoration: none;
+}
