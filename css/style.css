@@ -170,7 +170,7 @@ body {
 /* =========  media 560px ========== */
 @media (max-width: 560px) {
    .header-block {
-      padding-left: 40px;
+      padding-left: 30px;
    }
    .search-input {
       width: 250px;
