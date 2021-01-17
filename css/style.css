@@ -129,6 +129,7 @@ body {
    width: 100%;
    min-height: 600px;
    background: #313848;
+   margin: 0;
 }
 .private-clients-block {
    background: #ffd200;
@@ -180,7 +181,7 @@ body {
    margin: 0 auto;
 }
 .charge-card__block-1-img img {
-   width: 100%;
+   max-width: 100%;
 }
 .charge-card__block-2 {
    text-align: center;
@@ -201,6 +202,7 @@ body {
 }
 .charge-card__block-2-salary {
    display: flex;
+   padding: 0 0 20px 0;
 }
 .charge-card__block-2-salary-child {
    padding: 8px;
@@ -233,7 +235,7 @@ body {
    .charge-card {
       display: flex;
       flex-direction: column;
-      margin: 20px auto;
+      margin: 0;
    }
    .charge-card__block-1 {
       width: 100%;
