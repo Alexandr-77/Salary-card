@@ -68,6 +68,10 @@ body {
 .header-block__search-phone i {
    padding-right: 10px;
 }
+.header-block__search-input {
+   border-radius: 5px;
+   overflow: hidden;
+}
 .header-block__search {
    display: flex;
    justify-content: space-around;
@@ -81,7 +85,6 @@ body {
 }
 .header-block__search-input input {
    padding: 0 30px 0 15px;
-   border-radius: 3px;
    border: none;
    width: 380px;
    height: 34px;
@@ -90,7 +93,6 @@ body {
    width: 34px;
    height: 34px;
    border: none;
-   border-radius: 3px;
 }
 .header-block__clients-ul {
    display: flex;
@@ -296,7 +298,9 @@ body {
       padding-left: 30px;
    }
    .search-input {
-      width: 250px;
+      width: 280px;
+      border-radius: 5px;
+      overflow: hidden;
   }
    .header-block__clients-ul {
      display: block;
