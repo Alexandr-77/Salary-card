@@ -1,6 +1,7 @@
 * {
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
 }
 body {
    font-family: 'Open Sans', sans-serif;
@@ -17,7 +18,7 @@ body {
 
 .header-block {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    padding: 20px 0;
 }
 .header-block__logo {
@@ -93,17 +94,20 @@ body {
 }
 .header-block__clients-ul {
    display: flex;
-   margin-left: 60px;
 }
 .header-block__clients-ul li {
    list-style: none;
-   padding: 10px 15px 0;
+   padding: 10px 0 0;
 }
 .header-block__clients-ul li a {
    display: block;
    padding: 14px 20px ;
    border-radius: 5px 5px 0 0;
    font-size: 19px;
+}
+.header-block__clients-ul li a:hover {
+   text-decoration: underline;
+   color: #ffd200;
 }
 .header-block__clients-ul li.active a {
    background-color: #ffd200;
@@ -117,6 +121,46 @@ body {
 .header-block__clients-ul li a{
    color: #fff;
    text-decoration: none;
+}
+/* ===== private-clients-block ===== */
+.private-clients {
+   width: 100%;
+   min-height: 600px;
+   background: #525252;
+}
+.private-clients-block {
+   background:  #ffd200;
+   border-radius: 0 5px 5px 5px;
+   padding: 5px;
+}
+.private-clients-block ul {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+}
+.private-clients-block li {
+   padding: 0 0 0 30px;
+   width: 230px;
+   margin: 15px 0;
+}
+.private-clients-block li a{
+   text-decoration: none;
+   font-size: 14px;
+   color: #282828;
+   display: flex;
+   align-items: center;
+}
+.private-clients-block li a i {
+   margin-right: 8px;
+   font-size: 24px;
+   opacity: 0.5;
+}
+.private-clients-block li a:hover {
+   color: #000;
+   font-weight: 400;
+}
+.private-clients-block li a:hover i {
+   opacity: 1;
 }
 
 /* =========  media 1200px ========*/
