@@ -126,10 +126,10 @@ body {
 .private-clients {
    width: 100%;
    min-height: 600px;
-   background: #525252;
+   background: #313848;
 }
 .private-clients-block {
-   background:  #ffd200;
+   background: #ffd200;
    border-radius: 0 5px 5px 5px;
    padding: 5px;
 }
@@ -163,8 +163,87 @@ body {
    opacity: 1;
 }
 
-/* =========  media 1200px ========*/
-/* =========  media 1200px ========*/
+/* ===== charge-card ===== */
+.charge-card {
+   display: flex;
+   margin: 30px 15px;
+}
+.charge-card__block-1 {
+   width: 50%;
+   margin-top: 50px;
+}
+
+.charge-card__block-1-img {
+   width: 65vh;
+   margin: 0 auto;
+}
+.charge-card__block-1-img img {
+   width: 100%;
+}
+.charge-card__block-2 {
+   text-align: center;
+   width: 50%;
+}
+.charge-card__block-2 h1 {
+   font-size: 60px;
+   color:  #ffd200;
+   font-weight: 600;
+   margin: 10px 0 30px;
+}
+.charge-card__block-2 h2 {
+   font-size: 40px;
+   background: #ffd200;
+   font-weight: 600;
+   margin: 10px 0 30px;
+   padding: 10px 100px;
+}
+.charge-card__block-2-salary {
+   display: flex;
+}
+.charge-card__block-2-salary-child {
+   padding: 8px;
+   width: 33.3333%;
+   border-right: 1px solid #606878;
+}
+.charge-card__block-2-salary-child:nth-child(3) {
+   border: none;
+}
+
+.charge-card__block-2-salary-child h3 {
+   font-size: 30px;
+   font-weight: 600;
+   color: #ffffff;
+   margin: 10px 0 20px 0;
+}
+.charge-card__block-2-salary-child p {
+   font-size: 18px;
+   font-weight: 400;
+   color: #ffffff;
+   padding: 0 10px;
+}
+
+/* ==============  media =============*/
+/* ==============  media =============*/
+/* ==============  media =============*/
+
+/* =========  media 1400px ========*/
+@media (max-width: 1400px){
+   .charge-card {
+      display: flex;
+      flex-direction: column;
+      margin: 20px auto;
+   }
+   .charge-card__block-1 {
+      width: 100%;
+      margin-top: 50px;
+   }
+   .charge-card__block-2 {
+      width: 100%;
+      margin-top: 50px;
+   }
+}
+
+
 /* =========  media 1200px ========*/
 
 @media (max-width: 1200px) {
@@ -229,4 +308,25 @@ body {
    .header-block__search-phone {
       margin: 30px 0;
    }
+   .charge-card__block-2-salary {
+      display: flex;
+      flex-direction: column;
+   }
+   .charge-card__block-2-salary-child {
+      padding: 8px 8px 26px;
+      width: 100%;
+      border-right: none;
+   }
+   .charge-card__block-2 h1 {
+      font-size: 50px;
+   }
+   .charge-card__block-2 h2 {
+      font-size: 30px;
+      padding: 8px ;
+   }
+   .charge-card__block-1-img {
+      width: 50vh;
+      margin: 0 auto;
+   }
+
 }
