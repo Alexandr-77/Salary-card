@@ -330,3 +330,10 @@ body {
    }
 
 }
+
+@media (max-width: 440px) {
+   .charge-card__block-1-img {
+      width: 40vh;
+      margin: 0 auto;
+   }
+}
